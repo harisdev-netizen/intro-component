@@ -12,15 +12,15 @@ html {
 }
 
 body {
-  background-color: #ff6b6b;
-  height: 100vh;
-  background-size: cover;
-  background-image: url('../../images/bg-intro-desktop.png');
-  background-repeat: no-repeat;
-  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  background-image: url('../../images/bg-intro-desktop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ff6b6b;
 }
 
 .content {
@@ -34,7 +34,7 @@ body {
 }
 
 .left-section {
-  padding: 60px 53px 0 10px;
+  margin: 0 45px 40px 0;
   flex: 1;
   display: flex;
   color: #FFFFFF;
@@ -44,14 +44,15 @@ body {
 
 .left-section h1 {
   font-family: 'Poppins';
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
   line-height: 1.2em;
   letter-spacing: -0.52px;
-  margin-bottom: 22px;
+  padding-bottom: 22px;
 }
 
 .left-section p {
+  font-family: 'Poppins';
   font-size: 16px;
   line-height: 1.6em;
 }
@@ -59,8 +60,7 @@ body {
 
 .right-section {
   max-width: 540px;
-  height: 440px;
-  padding: 40px 40px 20px 40px;
+  padding: 40px 40px 20px 41px;
   margin: auto;
   flex: 1;
   display: flex;
@@ -71,13 +71,14 @@ body {
   border-radius: 10px;
   box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.1469);
   z-index: 1;
+  width: 100%;
 }
 
 .offer-box {
   position: absolute;
   top: 0;
   left: 50%;
-  min-height: 60px;
+  padding: 14px 110px 14px 111px;
   color: #FFFFFF;
   background-color: #5E54A4;
   display: flex;
@@ -86,9 +87,9 @@ body {
   text-align: center;
   font-size: 14px;
   border-radius: 8px;
-  width: 50%;
+  width: 540px;
   box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.1469);
-  z-index: 2;
+  z-index: 1;
 }
 
 .offer-box span {
@@ -106,10 +107,11 @@ body {
 }
 
 .signup-form input {
+  font-family: 'Poppins';
   margin-bottom: 15px;
-  padding: 15px;
+  padding: 15px 0 18px 32px;
   border-radius: 5px;
-  border: 1px solid #ddd;
+  border: 1px solid #DEDEDE;
   font-size: 14px;
   font-weight: 600;
 }
@@ -128,8 +130,10 @@ input:focus-visible {
   background-color: #38CC8B;
   padding: 15px;
   border: none;
-  color: white;
-  font-size: 1rem;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 550;
+  letter-spacing: 1px;
   border-radius: 5px;
   cursor: pointer;
   box-shadow: #38CC8B 0px -4px 0 0 inset;
@@ -154,4 +158,16 @@ input:focus-visible {
 
 .signup-form p a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .right-section {
+    padding: 20px;
+  }
+
+  .offer-box {
+    padding: 10px 20px;
+    font-size: 12px;
+    width: 90%;
+  }
 }
