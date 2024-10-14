@@ -167,8 +167,8 @@ input:focus-visible {
     background-image: url('../../images/bg-intro-mobile.png');
     background-position: top;
     background-size: cover;
-    height: auto;
-    padding: 20px;
+    min-height: 1000px;
+    /* padding: 20px; */
   }
 
   .content {
@@ -182,7 +182,7 @@ input:focus-visible {
   .left-section {
     text-align: center;
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
   }
 
   .left-section h1 {
@@ -192,22 +192,24 @@ input:focus-visible {
 
   .left-section p {
     font-size: 16px;
-    margin: 16px 0 64px 0;
+    /* margin: 16px 0 64px 0; */
   }
 
   .right-section {
     width: 100%;
     max-width: 100%;
     padding: 30px 20px;
+    margin: 140px 24px 68px 24px;
   }
 
   .offer-box {
     width: 100%;
     left: 0;
     padding: 10px 0;
-    font-size: 12px;
+    font-size: 15px;
+    padding: 18px 66px 18px 67px;
     /* top: 100px; */
-    /* margin-top: 240px; */
+    margin-top: 240px;
   }
 
   .signup-form input {
@@ -220,6 +222,8 @@ input:focus-visible {
   }
 
   .signup-form p {
-    font-size: 10px;
+    font-size: 11px;
+    margin: 8px 39px 24px 39px;
+    line-height: 1.7em;
   }
 }
