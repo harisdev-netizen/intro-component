@@ -26,8 +26,8 @@ body {
 .content {
   display: flex;
   max-width: 1110px;
-  min-height: 600px;
   width: 100%;
+  min-height: 600px;
   overflow: hidden;
   position: absolute;
 }
@@ -160,14 +160,13 @@ input:focus-visible {
   text-decoration: underline;
 }
 
-/* Mobile Styles */
+
 @media (max-width: 768px) {
   body {
     background-image: url('../../images/bg-intro-mobile.png');
     background-position: top;
     background-size: cover;
     min-height: 1000px;
-    /* padding: 20px; */
   }
 
   .content {
@@ -191,7 +190,6 @@ input:focus-visible {
 
   .left-section p {
     font-size: 16px;
-    /* margin: 16px 0 64px 0; */
   }
 
   .right-section {
@@ -207,7 +205,6 @@ input:focus-visible {
     padding: 10px 0;
     font-size: 15px;
     padding: 18px 66px 18px 67px;
-    /* top: 100px; */
     margin-top: 240px;
   }
 
@@ -224,5 +221,6 @@ input:focus-visible {
     font-size: 11px;
     margin: 8px 39px 24px 39px;
     line-height: 1.7em;
+    letter-spacing: normal;
   }
 }
