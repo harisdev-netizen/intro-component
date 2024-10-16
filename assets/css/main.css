@@ -30,6 +30,7 @@ body {
   min-height: 600px;
   overflow: hidden;
   position: absolute;
+  
 }
 
 .left-section {
@@ -59,24 +60,32 @@ body {
 
 .right-section {
   max-width: 540px;
-  padding: 40px 40px 20px 41px;
+  /* padding: 40px 40px 20px 41px; */
   margin: auto;
   flex: 1;
   display: flex;
+  gap: 24px;
   justify-content: center;
   flex-direction: column;
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   position: relative;
-  border-radius: 10px;
-  box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.1469);
+  
+  /* box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.1469); */
   z-index: 1;
   width: 100%;
 }
 
+.sign-up-form {
+  padding: 40px 40px 20px 41px;
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.1469);
+  border-radius: 10px;
+}
+
 .offer-box {
-  position: absolute;
-  top: 0;
-  left: 50%;
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 50%; */
   padding: 14px 110px 14px 111px;
   color: #FFFFFF;
   background-color: #5E54A4;
